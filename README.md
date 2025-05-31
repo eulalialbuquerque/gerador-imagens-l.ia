@@ -1,4 +1,4 @@
-# Projeto Gerador de Imagens L.IA!
+# Projeto Gerador de Imagens L.IA
 
 Este é um projeto prático para a disciplina de Introdução a Computação, que consiste em uma aplicação web para geração de imagens utilizando Inteligência Artificial.
 
