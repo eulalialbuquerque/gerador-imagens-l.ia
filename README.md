@@ -1,4 +1,4 @@
-# Projeto Gerador de Imagens com IA
+# Projeto Gerador de Imagens L.IA!
 
 Este é um projeto prático para a disciplina de Introdução a Computação, que consiste em uma aplicação web para geração de imagens utilizando Inteligência Artificial.
 
@@ -37,7 +37,10 @@ O projeto está organizado da seguinte forma:
 
 ## Como Executar
 
-1. Clone ou baixe este repositório
+1. Clone este repositório
+```bash
+git clone https://github.com/eulalialbuquerque/gerador-imagens-l.ia.git
+```
 2. Abra o arquivo `index.html` em seu navegador
 3. Navegue entre as páginas utilizando o menu de navegação
 
