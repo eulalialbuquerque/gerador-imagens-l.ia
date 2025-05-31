@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Imagens IA - Gerar</title>
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" href="estilos/responsivo.css">
+</head>
+<body>
+    <header>
+        <h1>Gerador de Imagens L.IA</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="gerar.html">Gerar Imagem</a></li>
+                <li><a href="galeria.html">Galeria</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gerador">
+            <h2 style = "justify-self: center;">Gere sua Imagem</h2>
+            <form id="form-gerador">
+                <label for="prompt">Descreva a imagem:</label>
+                <input type="text" id="prompt" name="prompt" placeholder="Ex: Um pato tocando piano" required>
+                <button type="submit" class="btn">Gerar Imagem</button>
+            </form>
+            <div id="feedback-geracao" class="feedback" style="display: none;">
+                <p>Gerando imagem...</p>
+                <div class="spinner"></div>
+            </div>
+            <div id="resultado-geracao">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Projeto Prático da Disciplina de Introdução a Computação. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="scripts/script.js"></script>
+</body>
+</html>

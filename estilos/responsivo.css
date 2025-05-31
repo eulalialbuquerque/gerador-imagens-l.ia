@@ -1,0 +1,112 @@
+@media (max-width: 992px) {
+    header h1 {
+        font-size: 1.8rem;
+    }
+    
+    nav ul {
+        flex-wrap: wrap;
+    }
+    
+    nav ul li {
+        margin: 5px;
+    }
+    
+    .grid-galeria {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    
+    .membros-equipe {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+        width: 100%;
+    }
+    
+    nav ul li a {
+        display: block;
+        text-align: center;
+        padding: 10px;
+    }
+    
+    main {
+        padding: 15px;
+    }
+    
+    h2 {
+        font-size: 1.5rem;
+    }
+    
+    h3 {
+        font-size: 1.2rem;
+    }
+    
+    #introducao {
+        padding: 20px 15px;
+    }
+    
+    #introducao h2 {
+        font-size: 1.6rem;
+    }
+    
+    #introducao p {
+        font-size: 1rem;
+    }
+    
+    form {
+        padding: 15px;
+    }
+    
+    .grid-galeria {
+        grid-template-columns: 1fr;
+    }
+    
+    .item-galeria img {
+        height: 200px;
+    }
+    
+    .membro {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.3rem;
+    }
+    
+    .btn {
+        padding: 8px 15px;
+        font-size: 0.9rem;
+    }
+    
+    form {
+        padding: 10px;
+    }
+    
+    input, select, textarea {
+        padding: 10px;
+    }
+    
+    .item-galeria img {
+        height: 180px;
+    }
+}
