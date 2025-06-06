@@ -5,6 +5,7 @@
     
     nav ul {
         flex-wrap: wrap;
+        justify-content: center;
     }
     
     nav ul li {
@@ -13,16 +14,29 @@
     
     .grid-galeria {
         grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 15px;
     }
     
     .membros-equipe {
         justify-content: center;
+        gap: 20px;
+    }
+    
+    aside {
+        width: 250px;
+        margin-left: 15px;
     }
 }
 
 @media (max-width: 768px) {
+    body {
+        font-size: 15px;
+    }
+    
     header {
         padding: 15px;
+        flex-direction: column;
+        text-align: center;
     }
     
     header h1 {
@@ -33,6 +47,7 @@
     nav ul {
         flex-direction: column;
         align-items: center;
+        padding: 0;
     }
     
     nav ul li {
@@ -44,6 +59,7 @@
         display: block;
         text-align: center;
         padding: 10px;
+        border-radius: 4px;
     }
     
     main {
@@ -86,6 +102,12 @@
         width: 100%;
         max-width: 300px;
     }
+    
+    aside {
+        float: none;
+        width: 100%;
+        margin: 20px 0;
+    }
 }
 
 @media (max-width: 480px) {
@@ -104,9 +126,39 @@
     
     input, select, textarea {
         padding: 10px;
+        font-size: 14px;
     }
     
     .item-galeria img {
         height: 180px;
+    }
+    
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    footer .social-links {
+        margin-top: 15px;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 360px) {
+    body {
+        font-size: 14px;
+    }
+    
+    h2 {
+        font-size: 1.3rem;
+    }
+    
+    .btn {
+        padding: 7px 12px;
+    }
+    
+    /* Galeria */
+    .item-galeria img {
+        height: 150px;
     }
 }
